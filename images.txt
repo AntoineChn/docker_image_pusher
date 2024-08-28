@@ -15,7 +15,7 @@ linuxserver/resilio-sync:latest
 #Official
 adguard/adguardhome:latest
 cloudflare/cloudflared:latest
-home-assistant/home-assistant:stable
+homeassistant/home-assistant:stable
 b4bz/homer:latest
 openspeedtest/latest
 nicolargo/glances:latest-full
