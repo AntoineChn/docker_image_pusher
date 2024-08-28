@@ -5,22 +5,35 @@ nginx
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 #=========================================
-#Linuxserver
+#Linuxserver -------------------
 linuxserver/calibre-web:latest
 linuxserver/code-server:latest
-linuxserver/librespeed
+#linuxserver/rdesktop:ubuntu-xfce-4ed5849d-ls117
+#linuxserver/rdesktop:ubuntu-xfce
+linuxserver/librespeed:latest
 linuxserver/plex:latest
 linuxserver/qbittorrent:latest
+linuxserver/transmission:latest
 linuxserver/resilio-sync:latest
-#Official
-adguard/adguardhome:latest
-cloudflare/cloudflared:latest
-homeassistant/home-assistant:stable
-b4bz/homer:latest
-openspeedtest/latest
-nicolargo/glances:latest-full
+#Homelab -------------------
 containrrr/watchtower:latest
-jlesage/mkvtoolnix:latest
-tailscale/tailscale:stable
-pixman/pixman:latest
 portainer/portainer-ce:lts
+b4bz/homer:latest
+#Networks -------------------
+adguard/adguardhome:latest
+openspeedtest/latest
+cloudflare/cloudflared:latest
+tailscale/tailscale:stable
+zerotier/zerotier-synology:latest
+nicolargo/glances:latest-full
+#SmartHome
+homeassistant/home-assistant:stable
+homebridge/homebridge:latest
+# Multimedia
+miniflux/miniflux:latest
+jlesage/mkvtoolnix:latest
+pixman/pixman:latest
+#Reading
+diygod/rsshub:chromium-bundled
+# Science -------------------
+rocker/geospatial:latest
