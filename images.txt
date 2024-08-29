@@ -37,3 +37,4 @@ pixman/pixman:latest
 diygod/rsshub:chromium-bundled
 # Science -------------------
 rocker/geospatial:latest
+rocker/tidyverse:latest
