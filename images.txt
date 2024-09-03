@@ -13,6 +13,7 @@ linuxserver/code-server:latest
 linuxserver/librespeed:latest
 linuxserver/plex:latest
 linuxserver/qbittorrent:latest
+linuxserver/qbittorrent:4.6.6
 linuxserver/transmission:latest
 linuxserver/resilio-sync:latest
 #Homelab -------------------
