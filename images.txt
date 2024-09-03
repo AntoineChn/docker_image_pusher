@@ -8,14 +8,15 @@ nginx
 #Linuxserver -------------------
 linuxserver/calibre-web:latest
 linuxserver/code-server:latest
-#linuxserver/rdesktop:ubuntu-xfce-4ed5849d-ls117
-#linuxserver/rdesktop:ubuntu-xfce
+linuxserver/freshrss:latest
 linuxserver/librespeed:latest
 linuxserver/plex:latest
-linuxserver/qbittorrent:latest
 linuxserver/qbittorrent:4.6.6
-linuxserver/transmission:latest
+linuxserver/qbittorrent:latest
+#linuxserver/rdesktop:ubuntu-xfce-4ed5849d-ls117
+#linuxserver/rdesktop:ubuntu-xfce
 linuxserver/resilio-sync:latest
+linuxserver/transmission:latest
 #Homelab -------------------
 containrrr/watchtower:latest
 portainer/portainer-ce:lts
@@ -27,10 +28,10 @@ cloudflare/cloudflared:latest
 tailscale/tailscale:stable
 zerotier/zerotier-synology:latest
 nicolargo/glances:latest-full
-#SmartHome
+#SmartHome -------------------
 homeassistant/home-assistant:stable
 homebridge/homebridge:latest
-# Multimedia
+# Multimedia -------------------
 miniflux/miniflux:latest
 jlesage/mkvtoolnix:latest
 pixman/pixman:latest
