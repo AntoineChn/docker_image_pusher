@@ -5,6 +5,8 @@ nginx
 #支持指定架构
 #--platform=linux/arm64 xiaoyaliu/alist
 #=========================================
+redis:alpine
+nginx:latest
 #Linuxserver -------------------
 linuxserver/calibre-web:latest
 linuxserver/code-server:latest
