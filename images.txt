@@ -7,38 +7,68 @@ nginx
 #=========================================
 redis:alpine
 nginx:latest
-#Linuxserver -------------------
-linuxserver/calibre-web:latest
-linuxserver/code-server:latest
-linuxserver/freshrss:latest
-linuxserver/librespeed:latest
-linuxserver/plex:latest
-linuxserver/qbittorrent:4.6.6
-linuxserver/qbittorrent:latest
-#linuxserver/rdesktop:ubuntu-xfce-4ed5849d-ls117
-#linuxserver/rdesktop:ubuntu-xfce
-linuxserver/resilio-sync:latest
-linuxserver/transmission:latest
-#Homelab -------------------
+
+# =====================================
+# Linuxserver
+# =====================================
+
+lscr.io/linuxserver/calibre-web:latest
+#lscr.io/linuxserver/freshrss:latest
+lscr.io/linuxserver/code-server:latest
+lscr.io/linuxserver/librespeed:latest
+#lscr.io/linuxserver/plex:latest
+lscr.io/linuxserver/ffmpeg:latest
+#lscr.io/linuxserver/qbittorrent:4.6.6
+lscr.io/linuxserver/qbittorrent:latest
+#lscr.io/linuxserver/rdesktop:ubuntu-xfce-4ed5849d-ls117
+#lscr.io/linuxserver/rdesktop:ubuntu-xfce
+lscr.io/linuxserver/resilio-sync:latest
+lscr.io/linuxserver/transmission:latest
+
+
+# =====================================
+# Homelab
+# =====================================
+
 containrrr/watchtower:latest
 portainer/portainer-ce:lts
 b4bz/homer:latest
-#Networks -------------------
+
+# =====================================
+# Networks
+# =====================================
+
 adguard/adguardhome:latest
 openspeedtest/latest
 cloudflare/cloudflared:latest
-tailscale/tailscale:stable
+#tailscale/tailscale:stable
+ghcr.io/tailscale/tailscale:latest
 zerotier/zerotier-synology:latest
 nicolargo/glances:latest-full
-#SmartHome -------------------
-homeassistant/home-assistant:stable
-homebridge/homebridge:latest
-# Multimedia -------------------
-miniflux/miniflux:latest
-jlesage/mkvtoolnix:latest
-pixman/pixman:latest
+
+# =====================================
+# SmartHome
+# =====================================
+
+ghcr.io/home-assistant/home-assistant:stable
+#homebridge/homebridge:latest
+
+# =====================================
+# Multimedia
+# =====================================
+
+#miniflux/miniflux:latest
+# 从 quay.io 拉取的速度不差
+#quay.io/miniflux/miniflux 
+#jlesage/mkvtoolnix:latest
+#pixman/pixman:latest
 #Reading
-diygod/rsshub:chromium-bundled
-# Science -------------------
-rocker/geospatial:latest
-rocker/tidyverse:latest
+#diygod/rsshub:chromium-bundled
+#ghcr.io/diygod/rsshub:chromium-bundled
+
+# =====================================
+# Science
+# =====================================
+
+#rocker/geospatial:latest
+#rocker/tidyverse:latest
